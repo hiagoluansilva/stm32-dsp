@@ -1,24 +1,33 @@
-🇧🇷 Português | 🇺🇸 [English](#english)
+# STM32 DSP — Processamento Digital de Sinais
 
-# stm32-dsp
-
-Processamento Digital de Sinais com STM32F4xx e CMSIS-DSP Library (Cortex-M4 + FPU).
-
-## IDE
-
-Atollic TrueSTUDIO 9.3 / STM32CubeIDE
-Centro Tecnológico Liberato — Novo Hamburgo/RS
+🇧🇷 **Português** | 🇺🇸 [English](#english)
 
 ---
 
-<a name="english"></a>
-🇧🇷 [Português](#) | 🇺🇸 English
+## Português
 
-# stm32-dsp
+Projeto base de Processamento Digital de Sinais (DSP) em STM32F4xx, combinando ADC, DAC e biblioteca CMSIS-DSP com FPU.
 
-Digital Signal Processing with STM32F4xx and CMSIS-DSP Library (Cortex-M4 + FPU).
+### O que faz
+- Captura sinal analógico via **ADC**
+- Aplica algoritmo DSP usando **CMSIS-DSP** (arm_math.h)
+- Gera saída processada via **DAC**
+- Aproveita a **FPU** do Cortex-M4 para operações em ponto flutuante
 
-## IDE
+### Microcontrolador
+STM32F4xx (Cortex-M4 com FPU) — Atollic TrueSTUDIO
 
-Atollic TrueSTUDIO 9.3 / STM32CubeIDE
-Centro Tecnológico Liberato — Novo Hamburgo/RS, Brazil
+---
+
+## English
+
+Base Digital Signal Processing (DSP) project on STM32F4xx, combining ADC, DAC, and CMSIS-DSP library with FPU.
+
+### What it does
+- Captures analog signal via **ADC**
+- Applies DSP algorithm using **CMSIS-DSP** (arm_math.h)
+- Outputs processed signal via **DAC**
+- Leverages the Cortex-M4 **FPU** for floating-point operations
+
+### MCU
+STM32F4xx (Cortex-M4 with FPU) — Atollic TrueSTUDIO
